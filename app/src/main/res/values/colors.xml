@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#36b58d</color>
+    <color name="gradient_start">#36b58d</color>
+    <color name="gradient_end">#60c3a3</color>
+    <color name="colorPrimaryDark">#7fcdb4</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="size_color_bg">#6bebc3</color>
+    <color name="app_background_purple">#58d8b0</color>
+    <color name="yellow_button_color">#F48024</color>
+    <color name="disable_button_color">#d2f48024</color>
+    <color name="green_nav_background">#60c3a3</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="grey_color">#aaaaaa</color>
+    <color name="green_status_color">#bacba0</color>
+    <color name="fade">#3000</color>
+    <color name="fade_fifty">#5000</color>
+    <color name="orange">#ff963a</color>
+    <color name="light_blue">#9ab4ff</color>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">auditory-menu-navigation</string>
+    <string name="auditory_feedback">Auditory Feedback</string>
+    <string name="press_back_to_exit">Press back again to exist.</string>
+    <string name="navigation_menu">Navigation Menu</string>
+    <string name="ok">Ok</string>
+    <string name="user_information">USER INFORMATION</string>
+    <string name="provide_user_id">Please provide the user id.</string>
+    <string name="provide_username">Please provide the user name.</string>
+    <string name="yes_next">Yes, Sure</string>
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background_purple"
+    tools:context=".activities.activities.HomeActivityActivity">
+
+    <include
+        android:id="@+id/toolbarLayout"
+        layout="@layout/common_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_below="@+id/toolbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:layout_marginTop="15dp"
+            android:text="@string/navigation_menu"
+            android:textStyle="bold"/>
+
+        <com.example.saudm.auditory_menu_navigation.activities.utils.MyCustomSpinnerView
+            android:layout_marginTop="30dp"
+            android:foreground="?android:selectableItemBackground"
+            android:id="@+id/cameraSpinner"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/spinner_background"
+            android:ellipsize="end"
+            android:singleLine="true" />
+
+        <com.example.saudm.auditory_menu_navigation.activities.utils.MyCustomSpinnerView
+            android:foreground="?android:selectableItemBackground"
+            android:id="@+id/messagingSpinner"
+            android:layout_marginTop="15dp"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/spinner_background"
+            android:ellipsize="end"
+            android:singleLine="true" />
+
+        <com.example.saudm.auditory_menu_navigation.activities.utils.MyCustomSpinnerView
+            android:foreground="?android:selectableItemBackground"
+            android:id="@+id/gallerySpinner"
+            android:layout_marginTop="15dp"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/spinner_background"
+            android:ellipsize="end"
+            android:singleLine="true" />
+
+        <com.example.saudm.auditory_menu_navigation.activities.utils.MyCustomSpinnerView
+            android:foreground="?android:selectableItemBackground"
+            android:id="@+id/toolsSpinner"
+            android:layout_marginTop="15dp"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/spinner_background"
+            android:ellipsize="end"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:clickable="true"
+        app:fabSize="normal"
+        android:layout_margin="16dp"
+        app:backgroundTint="@color/orange"
+        android:src="@drawable/done_icon"
+        app:elevation="7dp"
+        android:focusable="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

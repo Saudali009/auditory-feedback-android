@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="0dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dropDownTextView"
+        android:singleLine="true"
+        android:text="Saud Size"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:gravity="start" />
+
+</LinearLayout>
